@@ -1,0 +1,392 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: Poppins;
+}
+@font-face {
+  font-family: Poppins;
+  src: url(./font/poppins/Poppins-Regular.ttf);
+}
+h1 {
+  display: block;
+}
+/* Courses Page */
+
+/* Header */
+
+.header__container {
+  border-bottom: 0.1px solid #999;
+}
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 80%;
+  margin: 0 auto;
+  height: 60px;
+}
+
+.header__logo {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+}
+
+.header__logo img {
+  width: 26%;
+  margin-right: 5px;
+  margin-top: -7px;
+}
+
+.header__logo p {
+  font-size: 24px;
+  color: black;
+  font-weight: 549;
+}
+
+.header__right {
+  display: flex;
+  align-items: center;
+}
+
+nav {
+  display: block;
+}
+
+nav ul {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+}
+
+nav ul li {
+  list-style: none;
+  padding: 10px;
+  font-size: 19px;
+}
+nav ul li a {
+  text-decoration: none;
+  color: black;
+}
+nav ul li a:hover {
+  color: chartreuse;
+}
+
+/* /Header */
+/* courses main section */
+.coursesMainSection {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  background-image: url(./images/heading-bg.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  padding: 50px 0 60px 0;
+}
+.home__page a {
+  color: #444;
+  text-decoration: none;
+}
+.home__page a:hover {
+  color: red;
+}
+.coursesMainSection h1 {
+  color: #444;
+  font-size: 36px;
+}
+.coursesMainSection ul {
+  display: flex;
+  justify-content: center;
+}
+.coursesMainSection ul li {
+  list-style: none;
+  margin-left: 5px;
+  color: #444;
+}
+/* /courses main section */
+
+/*container get in touch */
+.get__in-touch {
+  margin: 20px 500px;
+  font-size: 24px;
+  color: #444;
+}
+.container {
+  width: 80%;
+  margin: 0 auto;
+}
+/* /container get in touch */
+
+/* courses section */
+
+.sections {
+  display: flex;
+}
+.section {
+  width: 25%;
+  background-color: #effdfa;
+  border: 1px solid chartreuse;
+  margin: 0 10px;
+  text-align: center;
+}
+.section img {
+  width: 30%;
+}
+.section p {
+  text-align: center;
+  margin: 5px 0;
+}
+.section h3 {
+  text-align: center;
+}
+/* /courses section */
+
+/* courses section left */
+
+.courses__section {
+    width: 80%;
+    display: flex;
+    margin-top: 10px;
+}
+.courses__section-left {
+  /* display: flex; */
+  width: 830px;
+}
+.courses__section-left img {
+  width:100%;
+}
+.courses__section-right {
+  width:805px;
+  border: 1px solid chartreuse;
+  margin: 0 -235px 10px 10px;
+}
+.courses__section-right input {
+  width: 90%;
+  height: 40px;
+  margin-left: 25px;
+  border: 1px solid chartreuse;
+  margin-bottom: 10px;
+  padding: 10px ;
+}
+.courses__section-right h2 {
+  color: #444;
+  margin: 10px 0 10px 25px;
+}
+.courses__section-right textarea {
+  width: 90%;
+  margin: 10px 0  10px 25px;
+  border: 1px solid chartreuse;
+  padding: 10px 0 0 10px;
+}
+.btn {
+  width: 30%;
+  height: 40px;
+  margin: 0 0 0 25px;
+  border: 1px solid chartreuse;
+  color: chartreuse;
+  font-size:18.72px ;
+}
+.clear {
+  clear: both;
+}
+/* /courses section left */
+
+/* new section */
+
+.newSection_h {
+  text-align: center;
+  margin: 20px 0;
+  font-size: 24px;
+}
+.input_1 {
+  width: 49%;
+  height: 40px;
+  border: 1px solid chartreuse;
+  margin: 20px 0 20px 0;
+  color:black;
+  font-size: 18.72px;
+  padding: 0 10px; 
+}
+.input_2 {
+  width: 50%;
+  height: 40px;
+  border: 1px solid chartreuse;
+  margin: 20px 0 20px 0;
+  color:black;
+  font-size: 18.72px;
+  padding: 0 10px;
+}
+.input_1 {
+  width: 49%;
+  height: 40px;
+  border: 1px solid chartreuse;
+  margin: 20px 0 20px 0;
+  color:black;
+  font-size: 18.72px;
+  padding: 0 10px; 
+}
+/*/nev section */
+
+/* homeCampus */
+
+.homeCampus {
+  display: flex;
+  justify-content: space-evenly;
+  margin: 20px 0;
+}
+
+/* /homeCampus */
+
+/* footer section */
+
+.footer-container {
+  background-color: #effdfa;
+}
+footer {
+  width: 80%;
+  margin: 0 auto;
+}
+.footer__main {
+  padding: 50px 0;
+  color: #444;
+  display: flex;
+}
+.footer__main--left {
+  display: flex;
+  flex-direction: column;
+}
+.footer__main--left-contact img:hover{
+  border-radius: 50%;
+  cursor: pointer;
+}
+.footer__main--left-title {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  margin-bottom: 15px;
+
+}
+.footer__main--left img {
+  width: 45px;
+  height: 45px;
+  margin-right: 5px;
+
+}
+.footer__main--left-title img  {
+  margin-top: -10px;
+}
+.footer__main--left-title h3 {
+  font-size: 20px;
+  margin-left: 5px;
+}
+.footer__main--left p {
+  font-size: 14px;
+  line-height: 28px;
+  margin-bottom: 18px;
+
+}
+.footer__main--left-midle {
+  display: flex;
+  flex-direction: column;
+  padding: 0 15px;
+}
+.footer__main--left-midle h3 {
+  margin-bottom: 10px;
+}
+ul {
+  display: block;
+}
+.footer__main--left-midle ul li {
+  list-style: none;
+  padding: 10px 0;
+}
+.footer__main--left-midle ul li a {
+  text-decoration: none;
+  color: #444;
+  list-style: none;
+}
+.footer__main--left-midle ul li a:hover {
+  color: chartreuse;
+}
+
+.footer__main--right-midle {
+  display: flex;
+  flex-direction: column;
+  padding: 0 15px;
+}
+.footer__main--right-midle ul li a {
+  text-decoration: none;
+  color: #444;
+  margin-top: 10px;
+  list-style: none;
+}
+.footer__main--right-midle ul li a:hover {
+  color: chartreuse;
+}
+.footer__main--right {
+  display: flex;
+  flex-direction: column;
+  padding: 0 15px;
+}
+.footer__main--right form {
+  width: 100%;
+}
+.footer__main--right p {
+  margin: 22px 0 10px 0;
+  font-size: 14px;
+}
+.footer__main--right form input {
+  width: 100%;
+  padding: 13px;
+  font-size: 15px;
+  border: 1px solid chartreuse;
+  margin-bottom: 18px;
+}
+.footer__main--right form button {
+  padding: 11px 25px;
+  font-size: 16px;
+  background-color: #effdfa;
+  border: 1px solid chartreuse;
+  color: chartreuse;
+
+}
+.footer__main--right form button:hover {
+  transform: scale(1.03);
+}
+.btn:hover {
+  cursor: pointer;
+  transform: scale(1.05);
+  background-color: white;
+}
+.rowLine {
+  margin: -15px 0 20px 0;
+  border: 0.1px solid chartreuse;
+  display: block;
+}
+.footer__desc {
+  text-align: center;
+  color: #444;
+  font-size: 18px;
+  padding-bottom: 30px;
+}
+p.footer__desc a {
+  color: chartreuse;
+  margin:0 10px;
+  cursor: pointer;
+  text-decoration: none;
+}
+.footer__main {
+  justify-content: space-between;
+}
+li{
+  list-style-type: none;
+  padding: 10px;
+}
+/* /footer section */
+

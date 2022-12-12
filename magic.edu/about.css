@@ -1,0 +1,425 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: Poppins;
+}
+@font-face {
+    font-family: Poppins;
+    src: url(./font/poppins/Poppins-Regular.ttf);
+}
+/* about page */
+h1 {
+    display: block;
+}
+/* Header */
+
+.header__container {
+    border-bottom: 0.1px solid #999;
+}
+
+
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+    margin: 0 auto;
+    height: 60px;
+}
+
+.header__logo {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+
+.header__logo img {
+    width: 26%;
+    margin-right: 5px;
+    margin-top: -7px;
+}
+
+.header__logo p {
+    font-size: 24px;
+    color: black;
+    font-weight: 549;
+}
+
+.header__right {
+    display: flex;
+    align-items: center;
+
+}
+
+nav {
+    display: block;
+}
+
+nav ul {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+
+}
+
+nav ul li {
+    list-style: none;
+    padding: 10px;
+    font-size: 19px;
+}
+nav ul li a {
+    text-decoration: none;
+    color: black;
+}
+nav ul li a:hover {
+    color: chartreuse;
+}
+
+/* /Header */
+/* about main section */
+.aboutMainSection {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    background-image: url(./images/heading-bg.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding: 50px 0 60px 0;
+}
+.home__page a {
+    color:#444;
+    text-decoration: none;
+}
+.home__page a:hover {
+    color: red;
+
+}
+.aboutMainSection h1 {
+    color: #444;
+    font-size: 36px;
+}
+.aboutMainSection ul {
+    display: flex;
+    justify-content:center;
+}
+.aboutMainSection ul li {
+    list-style: none;
+    margin-left: 5px;
+    color: #444;
+}
+/* /about main section */
+
+/* best courses section */
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+.bestCourse {
+    margin-top: 40px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-bottom: 40px;
+    gap: 25px;
+}
+.bestCourse__left {
+    width: 100%;
+    height: 100%;
+    background-image: url(./images/about-img.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.bestCourse__right {
+    display: flex;
+    flex-direction: column;
+}
+.bestCourse__right h1 {
+    padding: 10px 0;
+    color: #444;
+}
+.bestCourse__right p {
+    color: #888;
+    margin-top: 5px;
+    line-height: 32px;
+}
+.bestCourses__right--cards {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 15px;
+    align-items: center;
+    text-align: center;
+    margin-top: 20px
+}
+.bestCourses__right--card {
+    padding: 25px 0;
+    border: 1px solid chartreuse;
+    background-color: #effdfa;
+}
+.bestCourses__right--card:hover {
+    transform: scale(1.05);
+}
+.bestCourses__right--card img {
+    margin-bottom: 5px;
+}
+.bestCourses__right--cards h2 {
+    color: #444;
+}
+.bestCourses__right p {
+    color: #888;
+    margin-top: 5px;
+    line-height: 32px;
+}
+/* /best courses section */
+
+/*  expert teacher section */
+.expertTeacher {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin: 70px 0;
+    color: #444;
+}
+.expertTeacher__title {
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+.expertTeacher__cards {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    align-items: center;
+    gap: 15px;
+}
+.expertTeacher__card--img1 {
+    background-image: url(./images/teacher-1.png);
+
+}
+.expertTeacher__card--img2 {
+    background-image: url(./images/teacher-2.png);
+}
+.expertTeacher__card--img3 {
+    background-image: url(./images/teacher-3.png);
+}
+.expertTeacher__card--img {
+    width: 100%;
+    height: 330px;
+    padding-top:10px ;
+    background-color: #effdfa;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+.expertTeacher__card--img:hover {
+    background-size: cover;
+    border: none;
+}
+.expertTeacher__card--data-name {
+    margin-top: 10px;
+    font-weight: bold;
+}
+.expertTeacher__card--data-desc {
+    font-weight:bolder;
+}
+/* /expert teacher section */
+
+ /* Student Review */
+ .studentReview {
+    margin: 50px 0 40px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #444;
+ }
+.studentReview__title {
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+.studentReview__cards {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 15px;
+    text-align: center;
+}
+.studentReview__text {
+    line-height: 22px;
+    margin-bottom: 10px;
+    border: 1px solid #2abd8f;
+    padding: 15px 15px 40px 15px;
+    font-size: 14px;
+    background-color: #effdfa;
+}
+
+.studentReview__cards .studentReview__card img {
+    border-radius: 50%;
+    width: 70px;
+}
+.studentReview__name {
+    font-weight: bold;
+    font-size: 18px;
+}
+.stars {
+    display: flex;
+    justify-content: center;
+}
+.star {
+    margin-left: 5px;
+    width: 14px;
+    height: 14px;
+    border: 1px solid #2abd8f;
+    background-color: #2abd8f;
+    clip-path: polygon( 0 41%, 35% 39%, 50.5% 10%, 51.5% 10%, 65% 40%, 100% 42%, 100% 43%, 75% 64%, 93% 100%, 91% 100%, 49% 80%, 9% 100%, 7% 100%, 26% 63%, 0 43% );
+}
+/* /Student Review */
+
+/* footer section */
+
+.footer-container {
+    background-color: #effdfa;
+}
+footer {
+    width: 80%;
+    margin: 0 auto;
+}
+.footer__main {
+    padding: 50px 0;
+    color: #444;
+    display: flex;
+}
+.footer__main--left {
+    display: flex;
+    flex-direction: column;
+}
+.footer__main--left-contact img:hover{
+    border-radius: 50%;
+    cursor: pointer;
+}
+.footer__main--left-title {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    margin-bottom: 15px;
+
+}
+.footer__main--left img {
+    width: 45px;
+    height: 45px;
+    margin-right: 5px;
+
+}
+.footer__main--left-title img  {
+    margin-top: -10px;
+}
+.footer__main--left-title h3 {
+    font-size: 20px;
+    margin-left: 5px;
+}
+.footer__main--left p {
+    font-size: 14px;
+    line-height: 28px;
+    margin-bottom: 18px;
+
+}
+.footer__main--left-midle {
+    display: flex;
+    flex-direction: column;
+    padding: 0 15px;
+}
+.footer__main--left-midle h3 {
+    margin-bottom: 10px;
+}
+ul {
+    display: block;
+}
+.footer__main--left-midle ul li {
+    list-style: none;
+    padding: 10px 0;
+}
+.footer__main--left-midle ul li a {
+    text-decoration: none;
+    color: #444;
+    list-style: none;
+}
+.footer__main--left-midle ul li a:hover {
+    color: chartreuse;
+}
+
+.footer__main--right-midle {
+    display: flex;
+    flex-direction: column;
+    padding: 0 15px;
+}
+.footer__main--right-midle ul li a {
+    text-decoration: none;
+    color: #444;
+    margin-top: 10px;
+    list-style: none;
+}
+.footer__main--right-midle ul li a:hover {
+    color: chartreuse;
+}
+.footer__main--right {
+    display: flex;
+    flex-direction: column;
+    padding: 0 15px;
+}
+.footer__main--right form {
+    width: 100%;
+}
+.footer__main--right p {
+    margin: 22px 0 10px 0;
+    font-size: 14px;
+}
+.footer__main--right form input {
+    width: 100%;
+    padding: 13px;
+    font-size: 15px;
+    border: 1px solid chartreuse;
+    margin-bottom: 18px;
+}
+.footer__main--right form button {
+    padding: 11px 25px;
+    font-size: 16px;
+    background-color: #effdfa;
+    border: 1px solid chartreuse;
+    color: chartreuse;
+
+}
+.footer__main--right form button:hover {
+    transform: scale(1.03);
+}
+.btn {
+    cursor: pointer;
+}
+.rowLine {
+    margin: -15px 0 20px 0;
+    border: 0.1px solid chartreuse;
+    display: block;
+}
+.footer__desc {
+    text-align: center;
+    color: #444;
+    font-size: 18px;
+    padding-bottom: 30px;
+}
+p.footer__desc a {
+    color: chartreuse;
+    margin:0 10px;
+    cursor: pointer;
+    text-decoration: none;
+}
+.footer__main {
+    justify-content: space-between;
+}
+li{
+    list-style-type: none;
+    padding: 10px;
+}
+
+
+/* /footer section */
